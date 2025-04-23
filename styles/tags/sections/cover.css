@@ -1,5 +1,5 @@
 /*cover class start*/
-.cover{
+.cover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     margin: 0;
     z-index: 0;
 }
-.cover__title{
+.cover__title {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,12 +25,12 @@
     z-index: 2;
     margin: 165px 50px 56px 50px;
 }
-.cover__description{
+.cover__description {
     display: flex;
     justify-content: space-between;
     margin: 50px;
 }
-.cover__description-text{
+.cover__description-text {
     min-width: 637px;
     margin: 10px 107px 10px 0;
     font-size: 22px;
@@ -42,7 +42,7 @@
     padding-top: 2px; /*PP*/
     z-index: 2;
 }
-.bet-button{
+.bet-button {
     min-width: 256px;
     padding: 10.5px 31.5px;
     font-size: 22px;

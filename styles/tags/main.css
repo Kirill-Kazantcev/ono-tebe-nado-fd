@@ -2,10 +2,7 @@
 @import "./sections/cover.css";
 @import "./sections/lots.css";
 @import "./sections/about.css";
-.content{
-
-}
-.overlay{
+.overlay {
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.6);

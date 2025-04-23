@@ -1,26 +1,26 @@
 /*header class start*/
-.header{
+.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding: 92px 50px 96px 50px;
     margin: 0;
 }
-.header__menu{
+.header__menu {
     display: flex;
     align-items: center;
     min-width: 391.48px;
 }
-.header__links-list{
+.header__links-list {
     display: flex;
     flex-direction: row;
     gap: 32.5px;
     font-size: 18px;
 }
-.header__links-list-item{
+.header__links-list-item {
     list-style: circle;
 }
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
     list-style: none;
 }
 .header__link{
@@ -28,17 +28,17 @@
     text-decoration: 1px underline rgb(0, 0, 0);
     text-underline-offset: 2.5px; /**/
 }
-.header__link_active{
+.header__link_active {
     text-decoration: none;
     padding-left: 0;
 }
-.header__logo{
+.header__logo {
     display: flex;
     object-fit: scale-down;
     width: 148px;
     height: 105px; /*В макете картинка height 105 файл 114px*/
 }
-.header__address{
+.header__address {
     display: flex;
     flex-direction: column;
     justify-self: end;
@@ -49,17 +49,17 @@
     line-height: 24.3px;
     min-width: 240px;
 }
-.header__address-number{
+.header__address-number {
     text-decoration: 1px underline rgb(0, 0, 0);
     text-underline-offset: 4.5px; /**/
     margin-left: 0.52px;
 }
-.header__address-mail{
+.header__address-mail {
     text-decoration: 1px underline rgb(0, 0, 0);
     text-underline-offset: 4px; /**/
     margin-right: 0.52px;
 }
-.header__address-text{
+.header__address-text {
     max-width: 236.49px;
     margin-top: 1px;
     margin-left: 1px;
