@@ -23,7 +23,7 @@
 .header__links-list-item_no-bullit {
     list-style: none;
 }
-.header__link{
+.header__link {
     text-transform: lowercase;
     text-decoration: 1px underline rgb(0, 0, 0);
     text-underline-offset: 2.5px; /**/
