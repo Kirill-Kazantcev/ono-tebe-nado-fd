@@ -1,0 +1,52 @@
+/*about class start*/
+.about{
+    margin: 120px 24px 180px 24px;
+    padding: 0;
+}
+.about__column{
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: 595px;
+}
+.about__logo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 120px;
+    width: 240px;
+    height: 240px;
+    margin-top: 35px;
+    margin-left: 47px;
+}
+.about__logo-image{
+    align-self: center;
+    width: 148px;
+    height: 114px;
+}
+.about__content{
+    display: flex;
+    flex-direction: column;
+    margin: 145px /*133 в макете, в PixelPerfect (edge) 145px*/ 0 13px 72px;
+}
+.about__title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
+.about__text{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 111px; /*100 в макете, в PixelPerfect (edge) 111px*/
+    gap: 24px;/*30 в макете, в PixelPerfect (edge) 24px*/
+}
+.about__text-indent{
+    margin-right: 5px;
+}
+
+
+/*about class end*/

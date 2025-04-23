@@ -1,1 +1,25 @@
-/* место для вашего кода */
+/*add style for tags.css*/
+@import url('./tags/header.css');
+@import url('./tags/main.css');
+@import url('./tags/footer.css');
+/*boody class*/
+.aligned-text{
+    text-align: start;
+}
+.aligned-text_center{
+    text-align: center;
+}
+.aligned-text_right{
+    text-align: right;
+}
+.letter-spacing-extended{
+    letter-spacing: 0.3em;
+}
+.no-letter-spacing{
+    letter-spacing: 0;
+}
+.description-letter-spacing{
+    letter-spacing: 1.1em;
+}
+/*cover class end*/
+

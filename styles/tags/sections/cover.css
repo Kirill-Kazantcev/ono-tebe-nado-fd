@@ -1,0 +1,57 @@
+/*cover class start*/
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-image: url('../../../images/cover.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+.cover__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    min-height: 385px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    z-index: 2;
+    margin: 165px 50px 56px 50px;
+}
+.cover__description{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.cover__description-text{
+    min-width: 637px;
+    margin: 10px 107px 10px 0;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    word-spacing: 18.5px;
+    padding-top: 2px; /*PP*/
+    z-index: 2;
+}
+.bet-button{
+    min-width: 256px;
+    padding: 10.5px 31.5px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    cursor: pointer;
+    z-index: 2;
+}

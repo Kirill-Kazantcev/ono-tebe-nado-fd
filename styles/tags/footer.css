@@ -1,0 +1,76 @@
+/*footer class start*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1px 50px 82px 50px;
+    margin: 0;
+}
+.footer__address{
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    font-style: normal;
+    line-height: 25px; /*24 в макете, 25 PP*/
+    min-width: 264.57px;
+    font-size: 18px;
+    margin-top: -1px;
+}
+.footer__address-number{
+    text-decoration: 1px underline rgb(0, 0, 0);
+    text-underline-offset: 4px; /**/
+    margin-left: 0.57px;
+}
+.footer__address-mail{
+    text-decoration: 1px underline rgb(0, 0, 0);
+    text-underline-offset: 3.4px; /*4 в макете, 3 PP*/
+    margin-right: 0.57px;
+}
+.footer__address-text{
+    max-width: 260.7px;
+    margin-top: 1px;
+    margin-left: 1.1px;
+    line-height: 24px; /*24.5 в макете, 24 PP*/
+}
+.footer__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 163.9px;
+    margin-left: -24px; /*для PP*/
+}
+.footer__menu-list{
+    text-align: center;
+}
+.footer__menu-list-item{
+    list-style: none;
+}
+.footer__menu-link{
+    line-height: 21px; /*22, 21 PP*/
+    font-size: 18px;
+    text-decoration: 1px underline rgb(0, 0, 0);
+    text-underline-offset: 4px; /*PP*/
+}
+.footer__menu-link_active{
+    line-height: 21px;
+    text-decoration: none;
+}
+.footer__social-list{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    min-width: 240px;
+    gap: 48px;
+}
+.footer__social-list-item{
+    list-style: none;
+    line-height: 0;
+}
+.footer__social-link{
+    font-size: 0px;
+}
+.footer__social-icon{
+    max-width: 48px;
+    max-height: 48px;
+}
+/*footer class end*/
