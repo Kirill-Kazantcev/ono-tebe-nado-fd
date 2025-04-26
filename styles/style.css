@@ -2,7 +2,22 @@
 @import url('./tags/header.css');
 @import url('./tags/main.css');
 @import url('./tags/footer.css');
-/*boody class*/
+/*style class*/
+.address__style {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.35;
+    letter-spacing: 0%;
+}
+.address__text-decoration {
+    text-decoration: 1px underline rgb(0, 0, 0);
+    text-underline-offset: 4px;
+}
 .aligned-text {
     text-align: start;
 }
@@ -21,5 +36,4 @@
 .description-letter-spacing {
     letter-spacing: 1.1em;
 }
-/*cover class end*/
 
